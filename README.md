@@ -81,10 +81,10 @@ __buttons__
 Obejct/Array，需要显示哪些按钮，按钮如下定制：
 
 ```
-{
-  content: [String, 按钮显示的内容],
-  callback: [Function，点击按钮触发的回调函数]
-}
+[{
+  content: "String, 按钮显示的内容",
+  callback: function(evt) { console && console.log("点击按钮触发的回调函数") }
+}]
 ```
 
 __contentSelector__
